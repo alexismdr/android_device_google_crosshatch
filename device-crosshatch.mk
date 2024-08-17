@@ -20,12 +20,6 @@ include device/google/crosshatch/device-common.mk
 
 DEVICE_PACKAGE_OVERLAYS += device/google/crosshatch/crosshatch/overlay
 
-# Overlay
-PRODUCT_PACKAGES += \
-    CrosshatchFrameworks \
-    CrosshatchNoCutout \
-    CrosshatchSystemUI
-
 # SKU specific RROs
 PRODUCT_PACKAGES += \
     SettingsOverlayG013C \

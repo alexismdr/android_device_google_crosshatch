@@ -74,14 +74,7 @@ PRODUCT_CHARACTERISTICS := nosdcard
 PRODUCT_OTA_ENFORCE_VINTF_KERNEL_REQUIREMENTS := true
 PRODUCT_SHIPPING_API_LEVEL := 28
 
-PRODUCT_PACKAGES += \
-    B1C1Frameworks \
-    B1C1Nfc \
-    B1C1Settings \
-    B1C1SettingsLib \
-    B1C1SystemUI \
-    B1C1Telecom \
-    B1C1Telephony
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init.recovery.hardware.rc:recovery/root/init.recovery.$(PRODUCT_PLATFORM).rc \

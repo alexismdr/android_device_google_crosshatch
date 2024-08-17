@@ -175,10 +175,12 @@ PRODUCT_PACKAGES += \
     android.hardware.oemlock@1.0.vendor
 
 # Overlays
-PRODUCT_PACKAGES += \
-    CustomB1C1Frameworks \
-    CustomB1C1SettingsProvider \
-    CustomB1C1SystemUI
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-custom
+
+ifeq ($(CUSTOM_BUILD), crosshatch)
+PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
+    device/google/crosshatch/crosshatch/overlay-custom/frameworks/base/packages/overlays/NoCutoutOverlay
+endif
 
 # Perf
 PRODUCT_PACKAGES += \

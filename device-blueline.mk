@@ -18,10 +18,7 @@ PRODUCT_HARDWARE := blueline
 
 include device/google/crosshatch/device-common.mk
 
-# Overlay
-PRODUCT_PACKAGES += \
-    BluelineFrameworks \
-    BluelineSystemUI
+DEVICE_PACKAGE_OVERLAYS += device/google/crosshatch/blueline/overlay
 
 # SKU specific RROs
 PRODUCT_PACKAGES += \
