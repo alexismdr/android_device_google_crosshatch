@@ -8,7 +8,7 @@
       "repository":"android_vendor_google_crosshatch",
       "target_path":"vendor/google/crosshatch",
       "branch":"unity",
-      "remote":"pixelbuilds-blobs-gitlab"
+      "remote":"alexismdr"
    },
    {
       "repository":"android_packages_apps_ElmyraService",
