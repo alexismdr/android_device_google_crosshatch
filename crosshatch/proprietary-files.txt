@@ -348,6 +348,7 @@ product/etc/firmware/music_detector.sound_model
 product/etc/permissions/com.android.omadm.service.xml
 product/etc/permissions/com.android.sdm.plugins.connmo.xml
 product/etc/permissions/com.android.sdm.plugins.diagmon.xml
+product/etc/permissions/com.google.android.apps.wearables.maestro.companion.xml
 product/etc/permissions/com.google.android.hardwareinfo.xml
 product/etc/permissions/com.google.android.odad.xml
 product/etc/permissions/com.google.omadm.trigger.xml
@@ -364,6 +365,7 @@ product/lib/libdmjavaplugin.so
 product/lib/libsecureuisvc_jni.so
 product/lib64/libsecureuisvc_jni.so
 -product/priv-app/CarrierSettings/CarrierSettings.apk;PRESIGNED
+-product/priv-app/MaestroPrebuilt/MaestroPrebuilt.apk;PRESIGNED
 -product/priv-app/DiagMon/DiagMon.apk
 -product/priv-app/EuiccGoogle/EuiccGoogle.apk;PRESIGNED
 -product/priv-app/HardwareInfo/HardwareInfo.apk
