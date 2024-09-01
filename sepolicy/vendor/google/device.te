@@ -4,3 +4,6 @@ type maxfg_device, dev_type;
 # Mark system_block_devices as super partition block devices for retrofit
 # dynamic partitions.
 typeattribute system_block_device super_block_device_type;
+
+# Raw HID device
+type hidraw_device, dev_type;
