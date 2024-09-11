@@ -476,7 +476,9 @@ PRODUCT_PACKAGES += \
 ##    libgoogle_camera_hal_tests
 
 PRODUCT_PACKAGES += \
-    sensors.$(PRODUCT_HARDWARE)
+    sensors.$(PRODUCT_HARDWARE) \
+    android.hardware.sensors@2.0-service.multihal \
+    android.hardware.sensors@2.0-service.multihal.rc
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/sensors/hals.conf:vendor/etc/sensors/hals.conf
